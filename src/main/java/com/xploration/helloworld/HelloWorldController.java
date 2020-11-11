@@ -12,7 +12,6 @@ public class HelloWorldController{
 
     @GetMapping(path="/{name}")
     public String getMessage(@PathVariable("name") String name){
-        return "Hello World... Welcome "+name;
+        return "Hello World... Welcome "+ name + "to Xploration Day ";
     }
-
 }
